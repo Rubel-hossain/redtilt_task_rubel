@@ -6,10 +6,7 @@ interface NavigationProps {
   setIsDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const Navigation: React.FC<NavigationProps> = ({
-  isDarkMode,
-  setIsDarkMode,
-}) => {
+const Navigation = ({ isDarkMode, setIsDarkMode }: NavigationProps) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleDarkMode = () => {
@@ -109,7 +106,7 @@ const Navigation: React.FC<NavigationProps> = ({
             Blog
           </Link>
           <Link
-            to="/start-project"
+            to="/"
             className="bg-[#750909] text-white py-2 px-6 rounded-md border border-transparent hover:bg-[#ce1b1b] transition-all"
             onClick={() => setIsMobileMenuOpen(false)}
           >

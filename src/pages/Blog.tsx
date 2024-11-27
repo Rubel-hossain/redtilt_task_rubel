@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer";
 
 export default function Blog() {
   return (
@@ -58,7 +57,7 @@ export default function Blog() {
       </div>
       <div className="py-16 px-6">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between">
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 mb-14 lg:mb-0">
             <h2 className="text-2xl font-semibold mb-4">
               Got a project in mind?
             </h2>

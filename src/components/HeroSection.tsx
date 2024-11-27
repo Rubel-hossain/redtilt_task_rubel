@@ -1,7 +1,8 @@
 import React from "react";
 import Partners from "./Partners";
 import { partnersTwo } from "../data/partnersData";
-const HeroSection: React.FC = () => {
+
+const HeroSection = () => {
   return (
     <>
       <section className="relative text-center md:py-32 px-5 md:px-20">

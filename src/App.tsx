@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Footer from "./components/Footer";
 
-const App: React.FC = () => {
+const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   return (
