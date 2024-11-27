@@ -52,3 +52,6 @@ Want to try this landing page on your machine? Here’s how you can get started!
 2. **Run the project** to your local machine:
     ```npm install
        npm run dev
+3. **Live Demo URL**
+    https://redtilt-task-rubel.vercel.app
+    https://redtilt-task-rubel.vercel.app/blog
